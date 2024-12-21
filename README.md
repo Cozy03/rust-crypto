@@ -55,7 +55,7 @@ rust-crypto/
 ### Setup Commands
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/rust-crypto.git
+git clone https://github.com/Cozy03/rust-crypto.git
 cd rust-crypto
 
 # Create new crate for BigInt
