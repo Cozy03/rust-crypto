@@ -1,0 +1,64 @@
+cat > .gitignore << EOL
+# Rust build artifacts
+/target/
+**/target/
+Cargo.lock
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+.env
+
+# Debug files
+**/*.rs.bk
+*.pdb
+
+# Profiling and benchmarking
+perf.data
+perf.data.old
+flamegraph.svg
+*.profile
+
+# Test coverage
+coverage/
+*.profraw
+*.gcda
+*.gcno
+
+# Documentation
+/target/doc/
+/doc/
+
+# Binary files
+*.bin
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Backup files
+*~
+*.bak
+*.backup
+
+# Log files
+*.log
+debug/
+logs/
+
+# Local configuration
+.cargo/config.toml
+.rustfmt.toml
+.rust-toolchain
+
+# Generated files
+generated/
+dist/
+build/
+
+# Dependency directory
+vendor/
+EOL

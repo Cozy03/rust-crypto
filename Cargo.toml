@@ -1,6 +1,5 @@
 [workspace]
 members = [
-    "crates/*",
-    "examples/*"
+    "crates/bigint"
 ]
 resolver = "2"
