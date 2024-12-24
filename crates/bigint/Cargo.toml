@@ -1,4 +1,3 @@
-# crates/bigint/Cargo.toml
 [package]
 name = "bigint"
 version = "0.1.0"
@@ -7,5 +6,12 @@ edition = "2021"
 [dependencies]
 
 [dev-dependencies]
-criterion = "0.5"  # For benchmarking
-proptest = "1.0"   # For property-based testing
+criterion = "0.5.1"
+
+[[bench]]
+name = "multiplication"
+harness = false
+
+[[bench]]
+name = "mod_mul_benchmark"
+harness = false

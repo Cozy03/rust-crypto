@@ -1,5 +1,9 @@
+# /Cargo.toml
 [workspace]
 members = [
     "crates/bigint"
 ]
 resolver = "2"
+
+[workspace.metadata]
+readme = "README.md"
